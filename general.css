@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: .1em;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background-color: rgba(3, 94, 3, 0.712);
+  font-family: 'Oswald', sans-serif;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: unset;
+  color: unset;
+}
+
+ul, li {
+  list-style-type: none;
+
+}
+
+.go-up-button {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 100%;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  box-shadow: 0 0 10px black;
+}
+
+.go-up-button:hover {
+  box-shadow: none;
+}
+
+.go-up-button img {
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
