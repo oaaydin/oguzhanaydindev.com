@@ -48,3 +48,6 @@ ul, li {
   display: none;
 }
 
+image {
+  max-width: 10px;
+}
